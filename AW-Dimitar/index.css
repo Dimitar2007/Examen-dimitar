@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0p;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.parte1 table{
+    background-color: rgb(114, 230, 79);
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    caption-side: bottom;
+    color: azure;
+}
+
+caption{
+    margin: 10px;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    text-align: center; 
+    padding: 10px;
+}
+
+
+@media (min-width: 600rem){
+    nav{
+        font-size: 2em;
+    }
+    nav a{
+        padding: 2.5rem;
+    }
+ }
+ 
+@media (max-width:600px) and (min-width: 400rem){
+    nav{
+        font-size: 1.5em;
+    }
+    nav a{
+        padding: 1.5rem;
+    }  
+ }
+ 
+ 
+@media (max-width:400px) {
+    nav{
+        grid-auto-flow: row;
+        font-size: 1rem;
+    }
+}
+
+
+.Recetas footer {
+    table{
+        background-image:
+        linear-gradient(to bottom,
+        rgba(0, 0, 255, 0.51), white);
+        border-collapse: collapse;
+        border: 3px solid black;
+        margin: auto;
+        width: 70%;
+        margin-top: 50px;
+        caption-side: bottom;
+    }
+    
+    caption{
+        margin: 10px;
+    }
+    
+    th{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    
+    td{
+        text-align: center; 
+        padding: 10px;
+    }
+    
+}
+
+.Datos {
+    overflow: hidden;
+    border: 0.313rem double;
+}
+
+.Datos a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.img-cabecera {
+    background-image: url(../Ficheros/platillo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30rem;
+    margin: 10rem;
+    width: 80%;
+}
+
+
+
+.parte1{
+    margin: 10rem;
+    margin: 1rem 1rem 2rem 45rem;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+    text-align: center;
+}
+
+.contacto {
+    background-color: black;
+    border: solid 5px black;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.contacto h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.linea {
+    background: white;
+    height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario>* {
+    margin: 10px 0px 0px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+.Datos a:hover {
+    background-color: white;
+    color: black;
+}
